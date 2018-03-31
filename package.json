@@ -1,0 +1,15 @@
+{
+  "name": "homework4",
+  "version": "0.0.1",
+  "description": "This it the project aimed as solution for 4th homework in subject W20",
+  "main": "init.js",
+  "scripts": {
+    "test": "start:test"
+  },
+  "author": "Veronika Larionova",
+  "license": "ISC",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "router": "^1.3.2"
+  }
+}
