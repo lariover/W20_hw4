@@ -22,6 +22,7 @@ module.exports = (req,res) => {
         //const customer = customers.find((c)=> c.id == task.customer);
         storage.customers = customers.filter((c) => c.id != task.customer);
     }
+    res.statusCode = 204;
     res.end();
 
 };

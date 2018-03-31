@@ -12,12 +12,8 @@ module.exports = (req, res) => {
         return res.end();
     }
 
-    if (task.status != 'deleted') {
-        res.setHeader('Content-Type', 'application/json');
-        return res.end(JSON.stringify(task));
-    } else {
-        res.statusCode = 204;
-        return res.end();
-    }
+    res.setHeader('Content-Type', 'application/json');
+    return res.end(JSON.stringify(task));
+
 
 };
